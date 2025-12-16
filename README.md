@@ -39,9 +39,10 @@ A LangChain-powered AI agent designed to monitor financial RSS feeds, analyze ma
    ```
 
 4. **Configure Environment**:
-   Create a `.env` file in the root directory and add your OpenAI API key:
+   Copy the example environment file and add your OpenAI API key:
    ```bash
-   OPENAI_API_KEY=sk-your-api-key-here
+   cp .env.example .env
+   # Edit .env and set OPENAI_API_KEY=sk-your-api-key-here
    ```
 
 ## ▶️ Usage
